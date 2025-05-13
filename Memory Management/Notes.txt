@@ -1,0 +1,3 @@
+Memory allocation can be defines as allocating a block of space in the computer memory to a program
+
+-in python, memory allocation and de allocation is automatic as theres a garbagecollector

@@ -1,0 +1,5 @@
+garbage collection in python is automatic
+python manages memory through two rimary strategies:
+    1. reference counting
+    2. garbage collection
+
