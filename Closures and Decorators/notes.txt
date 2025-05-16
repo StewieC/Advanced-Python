@@ -5,3 +5,23 @@ a closure is created when a function(the inner function) is defined
 within another function, and the inner function references variables
 from the outer function
 
+HOW CLOSURES WORK INTERNALLY:
+When a closure is created, python internally stores a reference to 
+the environment where the closure was defined
+
+this allows inner function to access those variables even after outer function has completed
+
+in simple terms, a closure captures the values from its surrounding scope
+and retains them for later use
+
+USES OF CLOSURES
+Encapsulation:
+    closures help encapsulates functionality
+    inner function can access variables from the outer function
+
+State retention:
+    closure csn retain state across multiple function calls
+
+functional programming:
+     are a core feature of functional programming, as they allow you to create flexible and modular completed
+     
