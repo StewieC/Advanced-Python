@@ -1,0 +1,7 @@
+a closure is a concept that allows a function to remember and access variables
+from its lexical scope, even when the function is executed outised the scope
+
+a closure is created when a function(the inner function) is defined 
+within another function, and the inner function references variables
+from the outer function
+
