@@ -1,0 +1,25 @@
+def decorator_name(func):
+    def wrapper(*args, **kwargs):
+        # Add functionality before the original function call
+        result = func(*args, **kwargs)
+        # Add functionality after the original function call
+        return result
+    return wrapper
+
+@decorator_name
+def function_to_decorate():
+    # Original function code
+    pass
+
+Explanation of parameters:
+1. decorator_name(func):
+    decorator name is the name of the decorator function
+    func is the para,eter that represents the function being decorated
+    when you use a decorator, the decorated function is passed to this parameter
+
+
+2. wrapper(*args, **kwargs):
+    wrapper is the nested function inside the decorator. it wraps the original function adding additional functionality
+    *args collects any positional arguments passed to the decorated function into a tuple
+    **kwargs collects any keyword arguments passed to the decorted function into a dictionary
+    
