@@ -1,0 +1,18 @@
+static methods are used in functionalities that relates to the class but do not require any instances to do some work
+
+is a method which is bound to the class and not the object of the class,
+it cant access or modify class state
+
+it is present in a class because it makes sense for the methodto be present in that class
+
+SYNTAX:
+class C(object):
+    @staticmethod
+    def fun(arg1, arg2, ...):
+        ...
+
+returns a static method for function fun
+
+
+when  a function decorated with @staticmethod is called, we dont pass an instance of the class to it as it is normally done with methods,
+it means that function is put inside the class but it cannot access the instance ofthat class

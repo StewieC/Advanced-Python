@@ -11,6 +11,7 @@ def function_to_decorate():
     # Original function code
     pass
 
+
 Explanation of parameters:
 1. decorator_name(func):
     decorator name is the name of the decorator function
