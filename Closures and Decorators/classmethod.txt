@@ -1,0 +1,6 @@
+is an in-built function in python  which returns a class method for a given function
+
+it transforms a regular method into a classmethod
+when a method is defined using the @classmthod decorator, the methos is bound to the class and not to an instance of the class
+
+as a result the method receives the class as its first argument, rather than an instance
