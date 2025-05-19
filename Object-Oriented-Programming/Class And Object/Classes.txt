@@ -5,3 +5,17 @@ it bundles data and functions together making it easier to manage and use them.
 we can create multiple instances of an object defined by a class
 
 using __init__() function atomatically initializes object attributes when an object is created
+
+__str__ method:
+    allows us to define a custom string representation of an object.
+
+    when we print an object or convert it to string using str(),
+    python uses the default implementation which returns a string like
+
+    CLASS AND INSTANCE VARIABLE IN PYTHON 
+    
+class variables are variables shared across all instances of a class
+it is defined at the class level, outside any other methods
+
+instance variables are unique to each instance (object) of a class.
+these are defined within __init__ method or other instance methods
