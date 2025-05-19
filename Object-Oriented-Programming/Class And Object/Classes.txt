@@ -1,0 +1,7 @@
+a class in python is a user defined template for creating objects 
+
+it bundles data and functions together making it easier to manage and use them.
+
+we can create multiple instances of an object defined by a class
+
+using __init__() function atomatically initializes object attributes when an object is created
