@@ -1,3 +1,28 @@
 inheritance allows a class to inherit attributes from another class
 
 this promotes code reuse and a hierachial class srtucture
+
+SYNTAX:
+class ParentClass:
+
+    # Parent class code here
+    pass
+
+class ChildClass(ParentClass):
+
+    # Child class code here
+    pass
+
+Parent class: is the base class from which other classes inherit
+              contains attributes and methods that the child classcan reuse
+
+Child class: derived class that inherits from the parent class
+
+
+a parent class defines the common attributes and methods that can be inherited by other classes
+by using inheritance child classes can access and extend the functionality provided by the parent class
+
+
+__init__function is a constructor method in python.
+it initializes the object's state when the object is created
+if the child class does notdefine its own __init__ method, it will automatically inherit the one from the parent class
