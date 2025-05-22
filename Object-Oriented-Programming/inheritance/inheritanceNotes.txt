@@ -26,3 +26,25 @@ by using inheritance child classes can access and extend the functionality provi
 __init__function is a constructor method in python.
 it initializes the object's state when the object is created
 if the child class does notdefine its own __init__ method, it will automatically inherit the one from the parent class
+
+the super() function is used inside the __init__() method of a chils class,
+to call the constructor of the parent and initialize the inherited attributes
+
+
+once inheritance is established, both parent and child can have their own properties.
+
+TYPES OF INHERITANCE:
+1. single inheritance:
+        a child class inherits from one parent class
+
+2. multilevel inheritance:
+        a child is derived from a class which is derived from another class
+
+3. multiple inheritance:
+        a class inherits from mpre than one parent class
+
+4. hierachial inheritance:
+        multiple classes inherit from a singleparent class
+
+5. hybrid inheritance:
+        a combinantion of more than one type of inheritance
