@@ -1,0 +1,18 @@
+is the process of hiding the internal state of an object and requiring all interactions to be performed through an objects methods
+
+python achieves encapsulation through:
+    public, protected and private attributes
+
+How encapsulation works:
+Data hiding:
+    the variables are kept private or protected, meaning they are not accessible,
+    directly from outside the class. instead they can only be accessed or modified theough the methods
+
+Access through Methods:
+     methods act asthe interface through which external code interacts with data stored in the variables
+     for instance, getters and setters are common methods used to retrieve and update thevalue of a private variables
+
+Control and security:
+    by encapsulating the variables and only allowing their manipulation via methods, 
+    the class can enforce rules on how variables are accessed or modified, thus maintaining control and security over the data
+    
