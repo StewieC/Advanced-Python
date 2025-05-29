@@ -1,2 +1,39 @@
 allows entities like functions and methods or operatoes to ehave differently based on the type of data they are handling
 
+TYPES OF POLYMORPHISM:
+Compile-time Polymorphism:
+    found in statically typed languages like java and C++ where the behavior of a functions
+    or oprtator is resolved during the programs compilation phase
+
+    examples include method overloading
+
+Runtime Polymorphism:
+    occurs whenthe behaviorof a method is determined at runtime based on the type of the object
+
+    in python this is achieved through method overriding
+
+    Example:
+
+
+
+        class Animal:
+            def sound(self):
+                return "Some generic sound"
+        ​
+        class Dog(Animal):
+            def sound(self):
+                return "Bark"
+        ​
+        class Cat(Animal):
+            def sound(self):
+                return "Meow"
+        ​
+        # Polymorphic behavior
+        animals = [Dog(), Cat(), Animal()]
+        for animal in animals:
+            print(animal.sound())  # Calls the overridden method based on the object type
+
+        Output;
+        Bark
+        Meow
+        Some generic sound
