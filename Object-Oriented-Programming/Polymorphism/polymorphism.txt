@@ -1,0 +1,2 @@
+allows entities like functions and methods or operatoes to ehave differently based on the type of data they are handling
+
