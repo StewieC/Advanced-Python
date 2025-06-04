@@ -1,0 +1,8 @@
+abstraction hides the internal implementation detaiils while exposing only the necessary functionality.
+
+it helps focus on "what to do" rather than how to do it
+
+TYPES OF ABSTRACTION:
+Partial Abstraction: abstract class contains both abstract and concrete methods
+
+Full Abstraction: contains only abstract methods 
