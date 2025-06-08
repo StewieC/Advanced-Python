@@ -1,0 +1,5 @@
+a regular expression is a special sequnce of characters that uses a search pattern to find a string or set of strings
+
+it can detect the presence or absence of text by matching it with a particular pattern and also can split a pattern into one or more sub patterns
+
+REGEX MODULE IN PYTHON
